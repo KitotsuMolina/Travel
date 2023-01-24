@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-24T19:50:27.112Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="D-JgRtmlLBoaP5gpEv6U" version="20.8.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-24T19:50:50.007Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="M3T48eIBl-6boJTxjY5_" version="20.8.10" type="github">
   <diagram name="Página-1" id="czXhI2XSOKD8URqdnq5L">
     <mxGraphModel dx="1574" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="g68eZhoNwrhH9-CdULWT-1" value="Users" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="220" y="190" width="160" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="g68eZhoNwrhH9-CdULWT-2" value="+id&#xa;+username&#xa;+password&#xa;+active&#xa;+createdAt&#xa;+updateAt&#xa;+img&#xa;+rol&#xa;+id_people" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="g68eZhoNwrhH9-CdULWT-1" vertex="1">
+        <mxCell id="g68eZhoNwrhH9-CdULWT-2" value="+id&#xa;+username&#xa;+password&#xa;+active&#xa;+createdAt&#xa;+updateAt&#xa;+img&#xa;+id_rol&#xa;+id_people" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="g68eZhoNwrhH9-CdULWT-1" vertex="1">
           <mxGeometry y="30" width="160" height="150" as="geometry" />
         </mxCell>
         <mxCell id="Sc92qrHIA8ijGUT2YBj0-1" value="People" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
