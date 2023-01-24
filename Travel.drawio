@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-24T19:31:51.204Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="BkoMylo1iWn5ThOIzwf3" version="20.8.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-24T19:33:59.854Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="FHmkCnaITnQFhq2PVnOb" version="20.8.10" type="github">
   <diagram name="Página-1" id="czXhI2XSOKD8URqdnq5L">
     <mxGraphModel dx="599" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="Sc92qrHIA8ijGUT2YBj0-1" value="People" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="460" y="190" width="160" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="Sc92qrHIA8ijGUT2YBj0-2" value="+id&#xa;+firstname&#xa;+lastname&#xa;+email&#xa;+documento&#xa;+createdAt&#xa;+updateAt&#xa;+" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="Sc92qrHIA8ijGUT2YBj0-1">
+        <mxCell id="Sc92qrHIA8ijGUT2YBj0-2" value="+id&#xa;+firstname&#xa;+lastname&#xa;+email&#xa;+documento&#xa;+createdAt&#xa;+updateAt&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="Sc92qrHIA8ijGUT2YBj0-1">
           <mxGeometry y="30" width="160" height="150" as="geometry" />
         </mxCell>
       </root>
