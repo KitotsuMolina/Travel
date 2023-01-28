@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-28T22:14:01.538Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="YVv0hPUVGaD15SdSYogS" version="20.8.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-28T22:14:42.229Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ULYfeRXN59sdeMj58IWo" version="20.8.11" type="github">
   <diagram name="Página-1" id="czXhI2XSOKD8URqdnq5L">
     <mxGraphModel dx="2117" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -67,7 +67,7 @@
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Sc92qrHIA8ijGUT2YBj0-21" value="Pais" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1070" y="305" width="160" height="120" as="geometry" />
+          <mxGeometry x="1040" y="400" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Sc92qrHIA8ijGUT2YBj0-22" value="+id&#xa;+name" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="Sc92qrHIA8ijGUT2YBj0-21" vertex="1">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
@@ -88,6 +88,8 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1270" y="347" />
+              <mxPoint x="1230" y="347" />
+              <mxPoint x="1230" y="442" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -106,10 +108,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="F3kB7TNnCrRBKWkXqFEU-1" value="Puntos_Interes" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="700" y="305" width="160" height="175" as="geometry" />
+          <mxGeometry x="770" y="277.5" width="160" height="175" as="geometry" />
         </mxCell>
         <mxCell id="F3kB7TNnCrRBKWkXqFEU-2" value="+id&#xa;+nombre&#xa;+historia&#xa;+latitud&#xa;+longitud&#xa;+id_e_d_p&#xa;+id_ciudad&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="F3kB7TNnCrRBKWkXqFEU-1">
           <mxGeometry y="30" width="160" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="F3kB7TNnCrRBKWkXqFEU-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sc92qrHIA8ijGUT2YBj0-24" target="F3kB7TNnCrRBKWkXqFEU-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1065" y="310" />
+              <mxPoint x="1065" y="344" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
