@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-02T04:48:08.179Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="xiLTOGDH_zr6-E-WIO0X" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-26T18:55:39.733Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="Dyyc64uV31IO_qwx4ABT" version="20.8.23" type="github">
   <diagram name="Página-1" id="czXhI2XSOKD8URqdnq5L">
-    <mxGraphModel dx="1877" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1349" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,7 +17,7 @@
           <mxGeometry y="30" width="160" height="150" as="geometry" />
         </mxCell>
         <mxCell id="Sc92qrHIA8ijGUT2YBj0-3" value="Login" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="-70" y="100" width="160" height="120" as="geometry" />
+          <mxGeometry x="-90" y="90" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Sc92qrHIA8ijGUT2YBj0-4" value="+id&#xa;+token&#xa;+createdAt&#xa;+finishAt&#xa;+id_user" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="Sc92qrHIA8ijGUT2YBj0-3" vertex="1">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
