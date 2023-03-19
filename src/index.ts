@@ -5,7 +5,7 @@ import { AppDataSource } from '@DB/connection'
 async function main (): Promise<void> {
   try {
     await AppDataSource.initialize()
-    const PORT = 3000
+    const PORT = 3002
     app.listen(PORT, () => { console.log(`listening in port ${PORT}`) })
   } catch (err) {
     console.error(err)

@@ -1,31 +1,33 @@
-import { Entity, Column, PrimaryGeneratedColumn, CreateDateColumn, UpdateDateColumn, BaseEntity } from 'typeorm'
-import { IsBoolean, IsDate, IsEmail, IsInt, IsString } from 'class-validator'
+import {
+  Entity,
+  Column,
+  PrimaryGeneratedColumn,
+  CreateDateColumn,
+  UpdateDateColumn,
+  BaseEntity,
+  ManyToOne, OneToOne, JoinColumn
+} from 'typeorm'
+import { IsBoolean, IsDate, IsEmail, IsString } from 'class-validator'
+import { Rol } from '@Entity/RolEntity'
+import { People } from '@Entity/PeopleEntity'
 
 @Entity()
 export class Users extends BaseEntity {
-  @PrimaryGeneratedColumn()
-  @IsInt()
-    id: number
-
-  @Column()
+  @PrimaryGeneratedColumn('uuid')
   @IsString()
-    firstname: string
-
-  @Column()
-  @IsString()
-    lastname: string
-
-  @Column()
-  @IsEmail()
-    email: string
-
-  @Column({ default: true })
-  @IsBoolean()
-    active: boolean
+    id: string
 
   @Column({ unique: true })
   @IsString()
     username: string
+
+  @Column()
+  @IsString()
+    password: string
+
+  @Column({ default: true })
+  @IsBoolean()
+    active: boolean
 
   @CreateDateColumn()
   @IsDate()
@@ -36,6 +38,13 @@ export class Users extends BaseEntity {
     updatedAt: Date
 
   @Column()
-  @IsString()
-    password: string
+  @IsEmail()
+    email: string
+
+  @ManyToOne(() => Rol, (rol: Rol) => rol.id)
+    idRol: Rol
+
+  @OneToOne(() => People)
+  @JoinColumn()
+    idPeople: People
 }
