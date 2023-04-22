@@ -27,7 +27,6 @@
     "typescript": "4.9.4"
   },
   "dependencies": {
-
     "bcrypt": "5.1.0",
     "class-validator": "0.14.0",
     "cors": "2.8.5",

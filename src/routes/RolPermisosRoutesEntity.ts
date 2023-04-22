@@ -1,28 +1,34 @@
 import express from 'express'
 // import { body, validationResult } from 'express-validator'
 
-import {createUser, findAllUsers, updateUser, deleteUser, findByid} from '@Controllers/UserEntityController'
+import {
+  createRolPermisos,
+  findAllRolPermisos,
+  updateRolPermisos,
+  deleteRolPermisos,
+  findByIdRolPermisos
+} from '@Controllers/RolPermisosEntityController'
 
 const router = express.Router()
 
 router.post('', [], (req: express.Request, res: express.Response) => {
-  void createUser(req, res)
+  void createRolPermisos(req, res)
 })
 
 router.get('', [], (req: express.Request, res: express.Response) => {
-  void findAllUsers(req, res)
+  void findAllRolPermisos(req, res)
 })
 
 router.put('', [], (req: express.Request, res: express.Response) => {
-  void updateUser(req, res)
+  void updateRolPermisos(req, res)
 })
 
 router.delete('', [], (req: express.Request, res: express.Response) => {
-  void deleteUser(req, res)
+  void deleteRolPermisos(req, res)
 })
 
 router.get('', [], (req: express.Request, res: express.Response) => {
-  void findByid(req, res)
+  void findByIdRolPermisos(req, res)
 })
 
 export default router

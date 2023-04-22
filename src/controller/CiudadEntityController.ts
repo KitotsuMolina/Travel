@@ -29,7 +29,7 @@ export const findAllCiudad = async (_req: Request, res: Response): Promise<void>
   }
 }
 
-export const updateUCiudad = async (req: Request, res: Response): Promise<void> => {
+export const updateCiudad = async (req: Request, res: Response): Promise<void> => {
   try {
     if (req.query.id == null) throw new Error('Not null id')
     const ciudad = await Ciudad.findOneBy({ id: req.query.id as string })
@@ -57,7 +57,7 @@ export const deleteCiudad = async (req: Request, res: Response): Promise<void> =
   }
 }
 
-export const findById = async (req: Request, res: Response): Promise<void> => {
+export const findByIdCiudad = async (req: Request, res: Response): Promise<void> => {
   try {
     if (req.query.id == null) throw new Error('Not null id')
     const ciudad = await Ciudad.findOneBy({ id: req.query.id as string })

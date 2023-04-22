@@ -30,7 +30,7 @@ export const createUser = async (req: Request, res: Response): Promise<void> => 
   }
 }
 
-export const findAllUsers = async (_req: Request, res: Response): Promise<void> => {
+export const findAllUser = async (_req: Request, res: Response): Promise<void> => {
   try {
     const users = await Users.find()
     res.status(200).json(users)
@@ -68,7 +68,7 @@ export const deleteUser = async (req: Request, res: Response): Promise<void> => 
   }
 }
 
-export const findByid = async (req: Request, res: Response): Promise<void> => {
+export const findByIdUser = async (req: Request, res: Response): Promise<void> => {
   try {
     if (req.query.id == null) throw new Error('Not null id')
     const user = await Users.findOneBy({ id: req.query.id as string })
